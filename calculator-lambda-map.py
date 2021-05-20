@@ -1,14 +1,10 @@
-def add(a, b): return a+b
+add = lambda a,b: a+b
 
+substract = lambda a,b: a-b
 
-def substract(a, b): return a-b
+multiply = lambda a,b: a*b
 
-
-def multiply(a, b): return a*b
-
-
-def divide(a, b): return a/b
-
+divide = lambda a,b: a/b
 
 a, b = map(int, input("숫자를 입력하세요 ").split())
 result = add(a, b)
